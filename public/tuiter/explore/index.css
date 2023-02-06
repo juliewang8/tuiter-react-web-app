@@ -12,38 +12,38 @@ input#wd-search-tuiter:focus {
   outline:none;
 }
 
-.link a {
+.wd-link a {
   color: rgb(110, 118, 125);
   font-size: 15px;
   padding: 16px;
   text-decoration: none;
 }
 
-.link a:first-child {
+.wd-link a:first-child {
   color: rgb(29,161,242);
   border-bottom: 3px solid rgb(29,161,242);
 }
 
-.suggested-post-subtitle {
+.wd-suggested-post-subtitle {
   font-size: 13px;
   color: rgb(110, 118, 125);
 }
 
-.suggested-post-title {
+.wd-suggested-post-title {
   color: white;
   margin-left: 0px;
   margin-top: 10px;
   margin-bottom: 10px;
 }
 
-.suggested-posts a {
+.wd-suggested-posts a {
   text-decoration: none;
 }
 
-.suggested-posts a:first-child {
+.wd-suggested-posts a:first-child {
   margin-bottom: 20px;
 }
 
-.rounded-image {
+.wd-rounded-image {
   border-radius: 25px;
 }

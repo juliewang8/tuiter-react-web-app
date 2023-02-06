@@ -4,20 +4,20 @@ body {
   background-color: black;
 }
 
-.flex-row {
+.wd-flex-row {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 
-.flex-row.no-space-between { 
+.wd-flex-row.no-space-between { 
   justify-content: start;
 }
 
-.flex-row.no-space-between p {
+.wd-flex-row.no-space-between p {
   margin-right: 15px;
 }
 
-.white-font {
+.wd-white-font {
   color: white;
 }

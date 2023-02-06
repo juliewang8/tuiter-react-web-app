@@ -1,11 +1,11 @@
-.title {
+.wd-title {
   margin-top: -4px;
 }
 
-.container {
+.wd-container {
   max-width: 506px;
 }
-.bookmarks-title {
+.wd-bookmarks-title {
   margin-top: 0px;
   color: white;
   font-size: 20px;
@@ -13,7 +13,7 @@
   margin-bottom: 5px;
 }
 
-.username {
+.wd-username {
   margin-top: 5px;
   color: lightgray;
   font-size: 13px;
@@ -23,46 +23,46 @@
   position: relative;
 }
 
-.circle {
+.wd-circle {
   border-radius: 100%;
   margin-right: 15px;
 }
 
-.font-15 {
+.wd-font-15 {
   font-size: 15px;
 }
 
-.light-gray-font {
+.wd-light-gray-font {
   color: rgb(99, 99, 99);
 }
 
-.red-font {
+.wd-red-font {
   color: red;
 }
 
-.margin-bottom-12 {
+.wd-margin-bottom-12 {
   margin-bottom: 12px;
 }
 
-.tweet-image {
+.wd-tweet-image {
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
 }
 
-.lightgray-border-bottom {
+.wd-lightgray-border-bottom {
   border-bottom: 1px solid rgb(139, 139, 139);
 }
 
-.padding-12 {
+.wd-padding-12 {
   padding: 12px;
 }
 
-.bottom-rounded {
+.wd-bottom-rounded {
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
 }
 
-.margin-right-12 {
+.wd-margin-right-12 {
   margin-right: 12px;
 }
 
