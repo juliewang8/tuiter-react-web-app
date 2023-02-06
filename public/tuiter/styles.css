@@ -1,0 +1,23 @@
+body {
+  padding: 16px;
+  font-family: "Roboto-Regular",arial,sans-serif;
+  background-color: black;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.flex-row.no-space-between { 
+  justify-content: start;
+}
+
+.flex-row.no-space-between p {
+  margin-right: 15px;
+}
+
+.white-font {
+  color: white;
+}
