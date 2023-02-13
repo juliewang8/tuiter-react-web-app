@@ -1,49 +1,6 @@
-input#wd-search-tuiter {
-  background-color: rgb(65, 65, 65);
-  color: white;
-  width: 100%;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 25px;
-  margin-right: 12px;
-}
-
-input#wd-search-tuiter:focus {
-  outline:none;
-}
-
-.wd-link a {
-  color: rgb(110, 118, 125);
-  font-size: 15px;
-  padding: 16px;
-  text-decoration: none;
-}
-
-.wd-link a:first-child {
-  color: rgb(29,161,242);
-  border-bottom: 3px solid rgb(29,161,242);
-}
-
-.wd-suggested-post-subtitle {
-  font-size: 13px;
-  color: rgb(110, 118, 125);
-}
-
-.wd-suggested-post-title {
-  color: white;
-  margin-left: 0px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
-.wd-suggested-posts a {
-  text-decoration: none;
-}
-
-.wd-suggested-posts a:first-child {
-  margin-bottom: 20px;
-}
-
-.wd-rounded-image {
-  border-radius: 25px;
+.spacex-text {
+  color: #ffffff;
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
 }
