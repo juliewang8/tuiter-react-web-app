@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <link rel="stylesheet" href="index.css"/>
+    <link rel="stylesheet" href="../styles.css"/>
+    <link href="../../vendors/bootstrap/bootstrap-5.1.3-dist/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="../../vendors/bootstrap/bootstrap.min.css" rel="stylesheet"/>
+    <link href="../../vendors/fontawesome/css/all.css" rel="stylesheet"/>
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>Explore Page</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row align-items-start">
+        <!-- column 1 -->
+        <div class="col-2 col-lg-1 col-xl-2">
+          <div class="list-group">
+            <a href="" class="list-group-item list-group-item-action">
+              <i class="fab fa-twitter"></i>
+              </a>
+            <a href="" class="list-group-item list-group-item-action">
+              <i class="fas fa-home me-1"></i>
+              <span class="d-none d-xl-inline">
+                Home
+              </span>
+              </a>
+            <a href="" class="list-group-item list-group-item-action active">
+              <i class="fa fa-hashtag me-1"></i>
+              <span class="d-none d-xl-inline">
+                Explore
+              </span>
+            </a>
+            <a href="" class="list-group-item list-group-item-action">
+              <i class="fa fa-bell me-1"></i>
+              <span class="d-none d-xl-inline">
+                Notifications
+              </span></a>
+            <a href="" class="list-group-item list-group-item-action">
+              <i class="fa fa-envelope me-1"></i>
+              <span class="d-none d-xl-inline">
+                Messages
+              </span></a>
+            <a href="" class="list-group-item list-group-item-action">
+              <i class="fa fa-bookmark me-1"></i>
+              <span class="d-none d-xl-inline">
+                Bookmarks
+              </span></a>
+            <a href="" class="list-group-item list-group-item-action">
+              <i class="fa fa-list me-1"></i>
+              <span class="d-none d-xl-inline">
+                Lists
+              </span></a>
+            <a href="" class="list-group-item list-group-item-action">
+              <i class="fa fa-user me-1"></i>
+              <span class="d-none d-xl-inline">
+                Profile
+              </span></a>
+            <a href="" class="list-group-item list-group-item-action">
+              <i class="fa fa-ellipsis-h me-1"></i>
+              <span class="d-none d-xl-inline">
+                More
+              </span></a>
+           </div>
+           <button type="button" class="btn btn-primary w-100 rounded-pill mt-2 px-0">Tuit</button>
+        </div>
+
+        <!-- column 2 -->
+        <div class="col-10 col-lg-7 col-xl-6">
+          <div class="d-flex flex-row align-items-center">
+            <i class="position-absolute fa fa-search ms-3"></i>
+            <input
+              type="text"
+              class="form-control rounded-pill"
+              placeholder="         Search Tuiter"
+            />
+            <i class="fa fa-cog fa-2x ms-3 text-primary"></i>
+          </div>
+
+          <ul class="nav nav-tabs mt-3">
+            <li class="nav-item">
+                <a class="nav-link active" href="#">For you</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./trending.html">Trending</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./news.html">News</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./sports.html">Sports</a>
+            </li>
+            <li class="nav-item d-none d-md-block">
+              <a class="nav-link" href="./entertainment.html">Entertainment</a>
+            </li>
+          </ul>
+          <div class="card">
+            <img src="images/spacex.webp" class="w-100"/>
+            <div class="spacex-text">
+              <h3 class="card-title text-img-overlay">SpaceX's Starship</h3>
+            </div>
+          </div>
+          <ul class="list-group">
+            <li class="list-group-item d-flex flex-row align-items-center">
+              <div class="d-flex flex-column">
+                <span class="text-muted">Web Development</span>
+                <div class="d-flex flex-row align-items-center gap-1">
+                  <strong>ReactJS</strong>
+                  <i class="fa fa-check-circle"></i>
+                  <span class="text-muted">-</span>
+                  <span class="text-muted">2h</span>
+                </div>
+                <strong>React.js is a component based front end library that makes it very easy to build Single Page Applications or SPAs</strong>
+              </div>
+              <img class="ms-3" src="images/react.png" height="90px"/>
+            </li>
+
+            <li class="list-group-item d-flex flex-row align-items-center">
+              <div class="d-flex flex-column">
+                <div class="d-flex flex-row align-items-center gap-1">
+                  <strong>JavaScript</strong>
+                  <i class="fa fa-check-circle"></i>
+                  <span class="text-muted">-</span>
+                  <span class="text-muted">2h</span>
+                </div>
+                <strong>JavaScript is a programming language that can run on browsers as well as desktops</strong>
+                <span class="text-muted">123K Tweets</span>
+              </div>
+              <img class="ms-3 rounded" src="images/js.png" height="90px"/>
+            </li>
+
+            <li class="list-group-item d-flex flex-row align-items-center justify-content-between">
+              <div class="d-flex flex-column">
+                <span class="text-muted">Web Development</span>
+                <strong>jQuery</strong>
+                <span class="text-muted">123K Tweets</span>
+              </div>
+              <img class="ms-3" src="images/jquery.png" height="90px"/>
+            </li>
+
+            <li class="list-group-item d-flex flex-row align-items-center justify-content-between">
+              <div class="d-flex flex-column">
+                <span class="text-muted">Web Development</span>
+                <div class="d-flex flex-row align-items-center gap-1">
+                  <strong>NodeJS</strong>
+                  <i class="fa fa-check-circle"></i>
+                  <span class="text-muted">-</span>
+                  <span class="text-muted">2h</span>
+                </div>
+                <span class="text-muted">123K Tweets</span>
+              </div>
+              <img class="ms-3" src="images/nodejs.png" height="90px"/>
+            </li>
+          </ul>
+        </div>
+
+        <!-- column 3 -->
+        <div class="col-4 d-none d-lg-block">
+          <div class="list-group">
+            <div class="list-group-item">
+              <strong>Who to follow</strong>
+            </div>
+            <div class="list-group-item">
+              <div class="d-flex flex-row align-items-center gap-2">
+                <div>
+                  <img class="rounded-circle me-1" src="images/java.png" width="55px"/>
+                </div>
+                <div class="flex-fill d-flex flex-column">
+                  <div class="d-flex flex-row gap-1">
+                    <strong>Java</strong>
+                    <i class="fa fa-solid fa-check-circle mt-1"></i>
+                  </div>
+                  <div>
+                    @Java
+                  </div>
+                </div>
+                <button type="button" class="btn btn-primary rounded-pill follow-button">
+                  Follow
+                </button>
+              </div>
+            </div>
+
+            <div class="list-group-item">
+              <div class="d-flex flex-row align-items-center gap-2">
+                <div>
+                  <img class="rounded-circle me-1" src="images/relativity-space.avif" width="50px"/>
+                </div>
+                <div class="flex-fill d-flex flex-column">
+                  <div class="d-flex flex-row gap-1">
+                    <strong>Relativity Space</strong>
+                    <i class="fa fa-solid fa-check-circle mt-1"></i>
+                  </div>
+                  <div>
+                    @relativityspace
+                  </div>
+                </div>
+                <button type="button" class="btn btn-primary rounded-pill follow-button">
+                  Follow
+                </button>
+              </div>
+            </div>
+
+            <div class="list-group-item">
+              <div class="d-flex flex-row align-items-center gap-2">
+                <div>
+                  <img class="rounded-circle me-1" src="images/virgin-galactic.png" width="50px"/>
+                </div>
+                <div class="flex-fill d-flex flex-column">
+                  <div class="d-flex flex-row gap-1">
+                    <strong>Virgin Galactic</strong>
+                    <i class="fa fa-solid fa-check-circle mt-1"></i>
+                  </div>
+                  <div>
+                    @virgingalactic
+                  </div>
+                </div>
+                <button type="button" class="btn btn-primary rounded-pill follow-button">
+                  Follow
+                </button>
+              </div>
+            </div>
+
+            <div class="list-group-item">
+              <div class="d-flex flex-row align-items-center gap-2">
+                <div>
+                  <img class="rounded-circle me-1" src="images/nasa.png" width="50px"/>
+                </div>
+                <div class="flex-fill d-flex flex-column">
+                  <div class="d-flex flex-row gap-1">
+                    <strong>NASA</strong>
+                    <i class="fa fa-solid fa-check-circle mt-1"></i>
+                  </div>
+                  <div>
+                    @NASA
+                  </div>
+                </div>
+                <button type="button" class="btn btn-primary rounded-pill follow-button">
+                  Follow
+                </button>
+              </div>
+            </div>
+
+            <div class="list-group-item">
+              <div class="d-flex flex-row align-items-center gap-2">
+                <div>
+                  <img class="rounded-circle me-1" src="images/tesla.png" width="50px"/>
+                </div>
+                <div class="flex-fill d-flex flex-column">
+                  <div class="d-flex flex-row gap-1">
+                    <strong>Tesla</strong>
+                    <i class="fa fa-solid fa-check-circle mt-1"></i>
+                  </div>
+                  <div>
+                    @Tesla
+                  </div>
+                </div>
+                <button type="button" class="btn btn-primary rounded-pill follow-button">
+                  Follow
+                </button>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
