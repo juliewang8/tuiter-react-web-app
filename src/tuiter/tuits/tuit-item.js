@@ -1,12 +1,12 @@
 import React from "react";
 import TuitStats from "./tuit-stats";
 import {useDispatch} from "react-redux";
-import { deleteTuit } from "./tuits-reducer";
+import { deleteTuitThunk } from "../../services/tuits-thunks";
 
 const TuitItem = ({tuit}) => {
   const dispatch = useDispatch();
   const deleteTuitHandler = (id) => {
-    dispatch(deleteTuit(id));
+    dispatch(deleteTuitThunk(id));
   }
 
   return(
@@ -17,7 +17,7 @@ const TuitItem = ({tuit}) => {
             <img width={70} className="float-end rounded-5" alt="" src={`/tuiter/explore/images/${tuit.image}`}/>
           </div>
           <div className="col-10">
-            <div className="mb-2">
+            <div className="m b-2">
               <i className="bi bi-x-lg float-end"
                  onClick={() => deleteTuitHandler(tuit._id)}></i>
               <div className="row">

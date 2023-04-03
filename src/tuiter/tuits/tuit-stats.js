@@ -1,11 +1,8 @@
 import React from "react";
 import {useDispatch} from "react-redux";
-import { likeButtonToggle } from "./tuits-reducer";
+import { updateTuitThunk } from "../../services/tuits-thunks";
 const TuitStats = ({tuit}) => {
   const dispatch = useDispatch();
-  const toggleLikeButton = (tuit) => {
-    dispatch(likeButtonToggle(tuit))
-  }
   return(
   <div className="row mt-3">
     <div className="col">
@@ -16,9 +13,19 @@ const TuitStats = ({tuit}) => {
       <i className="me-2 bi bi-arrow-repeat"></i>
       {tuit.retuits}
     </div>
-    <div className="col">
-      <i onClick={()=> toggleLikeButton(tuit)} className={`me-2 bi ${tuit.liked ? "bi-heart-fill text-danger" : "bi-heart"}`}></i>
+      <div>
       {tuit.likes}
+      <i onClick={() => dispatch(updateTuitThunk({
+        ...tuit,
+        likes: tuit.likes + 1
+      }))} className="bi bi-heart-fill me-2 text-danger"></i>
+    </div>
+    <div>
+      {tuit.dislikes}
+      <i onClick={() => dispatch(updateTuitThunk({
+        ...tuit,
+        dislikes: tuit.dislikes + 1
+      }))} className="bi bi-hand-thumbs-down-fill me-2 text-danger"></i>
     </div>
     <div className="col">
       <i className="me-2 bi bi-share"></i>
