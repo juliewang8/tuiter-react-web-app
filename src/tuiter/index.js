@@ -5,6 +5,7 @@ import ExploreComponent from "./explore";
 import HomeComponent from './home';
 import whoReducer
   from "./reducers/who-reducer";
+  
 import tuitsReducer from "./tuits/tuits-reducer";
 import { configureStore }
   from '@reduxjs/toolkit';
