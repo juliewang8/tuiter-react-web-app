@@ -8,10 +8,9 @@ const TuitsList = () => {
   const {tuits, loading} = useSelector(
     state => state.tuitsData)
   const dispatch = useDispatch();
-  console.log(tuits);
   useEffect(() => {
     dispatch(findTuitsThunk())
-  }, [dispatch]) //!!
+  }, [dispatch])
   return(
     <ul className="list-group">
       {
