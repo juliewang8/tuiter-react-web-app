@@ -14,7 +14,7 @@ const TuitItem = ({tuit}) => {
     <li className="list-group-item">
         <div className="row">
           <div className="col-2">
-            <img width={70} className="float-end rounded-5" alt="" src={`/tuiter/explore/images/${tuit.image}`}/>
+            <img width={70} className="float-end rounded-5" alt="" src={`/tuiter-public/explore/images/${tuit.image}`}/>
           </div>
           <div className="col-10">
             <div className="m b-2">
